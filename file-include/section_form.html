@@ -1,0 +1,107 @@
+<section class="section section_form" data-anchor="section_form">
+        <div class="section__container section__container_form">
+            <div class="title">Закажите доставку</div>
+            <form class="form" id="myForm">
+                <div class="form__col">
+                    <div class="form__row">
+                        <div class="form__col">
+                            <label class="label">
+                                <div class="label__text" id="label__input">Имя</div>
+                                <input required name="name" type="text" class="label__input" placeholder="Имя" />
+                            </label>
+                            <div class="error"></div>
+                        </div>
+                        <div class="form__col">
+                            <label class="label">
+                                <div class="label__text">Телефон</div>
+                                <input required name="phone"  type="tel" class="label__input" placeholder="Телефон" />
+                            </label>
+                            <div class="error"></div>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__col">
+                            <label class="label">
+                                <div class="label__text">Имя</div>
+                                <input required name="street" type="text" class="label__input" placeholder="Улица" />
+                            </label>
+                            <div class="error"></div>
+                        </div>
+                    </div>
+    
+                    <div class="form__row">
+                        <div class="form__col">
+                            <label class="label">
+                                <div class="label__text">Имя</div>
+                                <input required name="house" type="text" class="label__input" placeholder="Дом" />
+                            </label>
+                            <div class="error"></div>
+                        </div>
+                        <div class="form__col">
+                            <label class="label">
+                                <div class="label__text">Телефон</div>
+                                <input required name="float" type="text" class="label__input" placeholder="Этаж" />
+                            </label>
+                            <div class="error"></div>
+                        </div>
+                        <div class="form__col">
+                            <label class="label">
+                                <div class="label__text">Имя</div>
+                                <input required name="appartament" type="text" class="label__input" placeholder="Квартира" />
+                            </label>
+                            <div class="error"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__col">
+                    <div class="form__row">
+                        <div class="form__col">
+                            <label class="label">
+                                <div class="label__text">Комментарий</div>
+                                <textarea name="comment" class="label__textarea"></textarea>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__col">
+                            <div class="radio-group">
+                                <label class="radio">
+                                    <input name="nameRadio" value="yes" type="radio" class="radio__input">
+                                    <div class="radio__content">
+                                        <div class="radio__btn"></div>
+                                        <div class="radio__text">текст</div>
+                                    </div>
+                                </label>
+                                <label class="radio">
+                                    <input name="nameRadio" value="no" type="radio" class="radio__input">
+                                    <div class="radio__content">
+                                        <div class="radio__btn"></div>
+                                        <div class="radio__text">текст 2</div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__col">
+                            <label class="checkbox">
+                                <input name="payCard" type="checkbox" class="checkbox__input" />
+                                <div class="checkbox__content">
+                                    <div class="checkbox__btn">
+                                        <img src="../../img/icons/check.svg" alt="check">
+                                    </div>
+                                    <div class="checkbox__text">Оплата по карте</div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__col">
+                            <button id="button-send" class="btn">Отправить</button>
+                            <button type="reset" class="btn">Очистить</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
